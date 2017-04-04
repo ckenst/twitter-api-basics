@@ -8,7 +8,7 @@ require 'json'
 baseurl = "https://api.twitter.com"
 path    = "/1.1/statuses/user_timeline.json"
 query   = URI.encode_www_form(
-    "screen_name" => "ckenst",
+    "screen_name" => "twitterapi",
     "count" => 10,
 )
 address = URI("#{baseurl}#{path}?#{query}")
